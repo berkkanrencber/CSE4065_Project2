@@ -6,7 +6,7 @@ public class Main {
         FileReader reader= new FileReader();
         ArrayList<String> sequences;
         ArrayList<String> alignmentResult;
-        sequences = reader.readFile("input5.txt"); // ArrayList to store sequences read from file
+        sequences = reader.readFile("test5.seq"); // ArrayList to store sequences read from file
 
         sequences= checkInputOrder(sequences);
 
